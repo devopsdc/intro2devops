@@ -84,3 +84,4 @@ Note: I could go into the personal reasons but I don't want to sound too self-co
 Image: Go Slow!
 
 Note: We'll take enough time to achieve success before moving on
+Note: Labs! Questions! Ask for Help! Parking lot. Troubleshoot on the spot
