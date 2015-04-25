@@ -18,3 +18,11 @@ Each pair gets:
 
 Remote workstations have either IAM roles or the AWS keys to
 - provision ELB, prod nodes, autoscale group
+
+## Supplies
+
+https://www.stickermule.com/user/1070644219/stickers
+
+## Slides
+
+https://github.com/webpro/reveal-md

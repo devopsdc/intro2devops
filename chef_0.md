@@ -10,3 +10,6 @@ Analogize start-up infrastructure to automobile needs
 - high traffic: Buy a car, outsource maintenance
   - then do your own maintenance
 - web scale: Buy a fleet of cars and hire an army of mechanics
+
+
+IMAGE: Click Next
