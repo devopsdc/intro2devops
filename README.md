@@ -16,6 +16,28 @@ Community Goals:
 
 See SETUP.md for technical preparation
 
+## Outline
+
+1. introductory.md
+  - logistics
+  - agenda
+  - introductions
+  - why devops
+  - why diversity
+  - technical goals
+1. infrastructure.md
+  - what is infrastructure?
+  - why automate it?
+-- NEXT --
+1. workstation_setup.md
+  - connect to AWS workstation
+  - set up local connection and Atom remote_file
+1. chef_0.md
+  - how do config mgmt systems approach the problem?
+  - resources
+  - test & repair
+
+
 ## Attributions
 
 * Jennifer Davis and Franklin Webber for TechSuperWomen materials

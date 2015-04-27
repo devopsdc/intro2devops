@@ -61,6 +61,12 @@ Note: all the latest toys
 
 ---
 
+# But that's not all!
+
+Note: i'll be returning to DevOps principles throughout the day....
+
+---
+
 # Why Diversity?
 
 Note: It's no secret that the technology sector has a diversity problem
