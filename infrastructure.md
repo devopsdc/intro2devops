@@ -14,11 +14,16 @@ Basic infrastructure concepts
 - services:  httpd/databases
 - files & directory and users and tools
 - dev and test environments
+  - developer workstations
 - high availability and DR
-- developer workstations
+- data stores: databases, tweets,
+- applications:
+  - mongodb, Java, Drupal, Wordpress, mysql
 
 How much of this do you need to know?
 - It depends?
+- Since we're going to use AWS more later
+  - think about "how" much infrastructure you need.
 
 
 Analogize start-up infrastructure to automobile needs
