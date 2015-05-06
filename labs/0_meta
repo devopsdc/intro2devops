@@ -1,0 +1,5 @@
+## Goal: 10 workstations in AWS
+
+To make intro2devops/chef-repo
+
+    chef generate repo chef-repo
