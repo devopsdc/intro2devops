@@ -57,6 +57,6 @@ New optional pre-workshop request:
 
 If you need to reach me before the workshop, email to work is best:
 
-  pburkholder@chef.io
+  [pburkholder@chef.io](mailto:pburkholder@chef.io)
 
 Day of, reach me by phone/text, or tweet @devopsdc so any of the TAs can help too.
