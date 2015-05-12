@@ -17,16 +17,21 @@
 
 - Using `chefserver.cheffian.com`
 - Creating users alpha, bravo and jenkins:
-
 ```
-for user in alpha bravo jenkins; do
-  sudo chef-server-ctl user-create $user $user cheffian pburkholder+$user@chef.io $secret -f $user.pem
-done
+      for user in alpha bravo jenkins; do
+        sudo chef-server-ctl user-create $user $user cheffian pburkholder+$user@chef.io $secret -f $user.pem
+      done
 ```
 - Then add to new org, `fluxx`
 ```
-org=fluxx
-sudo chef-server-ctl org-create $org $org -f $org.pem -a pdb -a alpha -a bravo -a jenkins
+      org=fluxx
+      sudo chef-server-ctl org-create $org $org -f $org.pem -a pdb -a alpha -a bravo -a jenkins
+```
+- Add all the users as admins of fluxx (except jenkins):
+```
+      for user in pdb alpha bravo; do
+        chef-server-ctl org-user-add $org -a $user
+      done
 ```
 - Copy all the pems to $HOME/.chef/cheffian
 - Set up user-data in i2d_aws/libraries/helpers.rb to use new server and orgs
