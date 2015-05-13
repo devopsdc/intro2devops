@@ -34,9 +34,22 @@
       done
 ```
 - Copy all the pems to $HOME/.chef/cheffian
+  - $HOME/.chef/knife.rb can use 'pdb' as the node name and 'pdb.pem' as the client key
+  - $HOME/.chef/knife.rb chef_server_url is currently "https://chefserver.cheffian.com/organizations/fluxx" but will need to use an ENV var for multi-org
+- Berksfiles are unhappy about the SSL certs, so
+  - `knife ssl fetch https://chefserver.cheffian.com` to create `~/.chef/trusted_certs/chefserver.cheffian.com.pem`
+  - Then append all the others with: `cat /opt/chefdk/embedded/ssl/certs/cacert.pem >> ~/.chef/trusted_certs/chefserver_cheffian_com.crt`
+  - And either set the evn var, or put this as the first line of Berksfile:
+      ```
+      ENV['SSL_CERT_FILE'] = "#{ENV['HOME']}/.chef/trusted_certs/chefserver_cheffian_com.crt"
+      ```
 - Set up user-data in i2d_aws/libraries/helpers.rb to use new server and orgs
 - Set up chef-repo/.chef/fluxx.rb to use the fluxx org
-
+- For the client to work, the self-signed cert needs to go on the client box, so user-data helper now does that, and `client.rb` on box has:
+       ```
+       ssl_ca_file      '/etc/chef/chefserver_cheffian_com.crt'
+       ```
+       
 
 ## Remote Resources
 
