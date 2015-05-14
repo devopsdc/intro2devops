@@ -161,3 +161,5 @@ nano sample.rb
 
 ```bash
 ruby sample.rb
+Hello World
+```
