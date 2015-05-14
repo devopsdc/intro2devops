@@ -23,7 +23,7 @@ Unless you're familiar with `vim` or `emacs`, we'll use `nano`.
   - For example: `ws.milk.cheffian.com` if 'milk' is your group
 - Where (your password) appears, then supply the password
   - Your instructor should have provided this
-  
+
 ---
 
 ## A: Remote connection
@@ -44,7 +44,7 @@ Use the `Terminal` application to make an ssh connection your workstation:
 ----
 
 
-Areas of user input show in red:
+Areas of user input shown in red:
 
 ![Alt text](images/putty.png)
 
@@ -111,6 +111,7 @@ Use `Putty` to make an ssh connection your workstation:
 alpha@ip-10-230-43-114:~$ whoami
 alpha
 ```
+
 ---
 
 ## B: Remote editing with Atom ()
@@ -120,3 +121,43 @@ alpha
 ## C: Verify your workstation
 
 ----
+
+### ChefDK and Git
+
+```bash
+$ git --version
+git version 1.9.1
+```
+
+```bash
+$ chef --version
+Chef Development Kit Version: 0.5.0
+chef-client version: 12.2.1
+berks version: 3.2.3
+kitchen version: 1.4.0
+```
+
+----
+
+### Nano and syntax highlighting
+
+- `nano` is a simple menu-driven text editor
+  - should provide enough syntax highlighting
+- open a new file, and then edit it:
+```bash
+nano sample.rb
+```
+
+----
+
+- you should get highlighting
+- and you should be able to save with `Ctrl-X`
+
+![nano_highlighting](images/nano_highlighting.png)
+
+---
+
+### Ruby runs
+
+```bash
+ruby sample.rb
