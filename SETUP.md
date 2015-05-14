@@ -49,7 +49,7 @@
        ```
        ssl_ca_file      '/etc/chef/chefserver_cheffian_com.crt'
        ```
-       
+
 
 ## Remote Resources
 
@@ -119,4 +119,22 @@ https://www.stickermule.com/user/1070644219/stickers
 
 ## Slides
 
-https://github.com/webpro/reveal-md
+Slides are written in Markdown and displayed with `reveal-md` from https://github.com/webpro/reveal-md
+
+Install per the README, then `reveal-md slides/`
+
+Added chef_slides style, and this to the `chef_slides.css` file under /usr/local/lib/node-modules/reveal-md....
+
+```
+.two-floating-elements > ul ~ p,
+.two-floating-elements > p ~ ul {
+  max-width: 50%;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+.two-floating-elements > p ~ ul {
+  margin-left: 0; }
+```
+
+per the answer at https://github.com/hakimel/reveal.js/issues/841

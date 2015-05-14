@@ -5,8 +5,8 @@
 - Slack room:
 - Your instructors are:
 
----
 
+----
 
 # Agenda
 
@@ -17,7 +17,8 @@
 
 Note: Introductions matter. Feel free to take some time on this -- because I'll better understand what you're bringing to the experience, and because communication and trust are core to DevOps practices - people matter!
 
----
+----
+
 
 # Introductions
 
@@ -33,11 +34,12 @@ Note: Image from Pink Floyd
 - What do you hope comes out of this?
 - What scares you about this?
 
+
+
 ---
 
 # Why DevOps?
 
----
 
 # Fun
 
