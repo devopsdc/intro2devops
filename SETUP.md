@@ -1,12 +1,16 @@
-## Todo:
-- Work with subdomain DNS in AWS
-  - Create a new hosted zone, e.g. `fluxx.cheffian.com` in Route53
-  - Note the NS records assigned to your new zone
-  - In the parent zone, `cheffian.com`, add an NS record for `fluxx.cheffian.com` zone with the servers noted in the step above
-- Get an AWS account - ASK at DevOpsDC planning
-- Get Excella networking information
-- Get lunch and breaks
+## Supplies
 
+- https://www.stickermule.com/user/1070644219/stickers
+- Fluxx cards
+- Verizon Puck
+- iPad and charger and cable
+- Macbook and charger
+- Mouse and keyboard
+
+
+## Todo:
+
+- See issues for this repo
 
 ## Local Workstation
 
@@ -102,10 +106,6 @@ aws iam get-policy-version --policy-arn arn:aws:iam::862552916454:policy/change-
     - singleton
     - group
 
-
--
-
-
 - chefdemo.net is zone Z20GXCA1KGHB6A
 - created policy:  change-chefdemo-net-route53-records-pburkholder
   - Based on http://docs.aws.amazon.com/Route53/latest/DeveloperGuide/UsingWithIAM.html
@@ -113,9 +113,6 @@ aws iam get-policy-version --policy-arn arn:aws:iam::862552916454:policy/change-
 - created 'instance profile' "If you use the AWS Management Console to create a role, the console automatically creates an instance profile and gives it the same name as the role"
 - Add instance profile to launch configuration
 
-## Supplies
-
-https://www.stickermule.com/user/1070644219/stickers
 
 ## Slides
 
