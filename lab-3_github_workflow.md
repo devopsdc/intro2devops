@@ -94,12 +94,31 @@ The `README.md` has an ugly typo, 'awsaume'. Let's fix it:
 
 ### Branch the repo
 
-```
+```command-line
 git branch fix_readme
 git checkout fix_readme
 ```
-```
+```output
 Switched to branch 'fix_readme'
 ```
+
+----
+
+### Fix and commit
+
+- Edit the `README.md` with `nano` (or your fav editor)
+  - Fix the typo, save the file
+- Then on the command line
+
+```bash
+git status              # see that
+git add README.md       # 'stage' the change
+git commit -m "message" # use your own 'message'
+```
+
+
+
+
+
 
 ----

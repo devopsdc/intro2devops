@@ -15,4 +15,10 @@ test user for the exercises.
 I'll need to make heavy use of tags with 'git reset --hard TAG' and 'git push -f'
 to reset the repositories to their pre-lab state.
 
+UPDATE: It's hard to keep remote forks up to date, since there's no GitHup UI shortcut for that, https://help.github.com/articles/syncing-a-fork/.
+
+So we'll use local forks instead....
+
+?? Prevent accidental merges to master?
+Yes:
 -->
