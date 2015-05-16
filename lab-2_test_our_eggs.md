@@ -1,4 +1,4 @@
-# Lab 1
+# Lab 2
 
 ### Practice Resource Test/Repair
 

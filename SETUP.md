@@ -11,6 +11,7 @@
 ## Todo:
 
 - See issues for this repo
+- The external IP address 50.241.130.54. 
 
 ## Local Workstation
 

@@ -191,6 +191,7 @@ fortune | cowsay
 fortune | cowsay -f tux
 ```
 - What happens when you finger-fumble `ls`?
+  - Reverse the letters of `ls` into `sl`:
 ```
 sl
 ```
