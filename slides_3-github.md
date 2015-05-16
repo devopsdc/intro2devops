@@ -20,5 +20,10 @@ UPDATE: It's hard to keep remote forks up to date, since there's no GitHup UI sh
 So we'll use local forks instead....
 
 ?? Prevent accidental merges to master?
-Yes:
+http://dev.ghost.org/prevent-master-push/
+
+Requires adding a .gitconfig file and .git_templates/hooks/precommit to each user.
+
+I can't imagine running a Chef workshop without having Chef to run the workshop.
+
 -->
