@@ -1,4 +1,4 @@
 Done moved
 ==========
 
-See http://github.com/cheffian/fluxx
+See https://github.com/cheffian/fluxx
