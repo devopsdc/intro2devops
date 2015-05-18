@@ -1,12 +1,31 @@
 # Welcome!
 
-- Bathrooms are:
-- Wireless is:
-- Slack room:
-- Your instructors are:
+## IntroToDevops
+
+----
+
+# Wireless access:
+
+----
+
+
+# Slack room:
+
+- Please sign up for DCTech Slack at: <br>
+http://dctechslack.herokuapp.com/
+- And join the #devops room
 
 
 ----
+
+# Your instructors are:
+
+- Peter Burkholder
+- Terry Cummiskey (T.A.)
+
+----
+
+
 
 # Agenda
 

@@ -1,0 +1,7 @@
+  {
+    "slideNumber": true,
+    "loop": true,
+    "autoSlide": 30000,
+    "autoSlideStoppable": false,
+    "mouseWheel": false
+  }
