@@ -1,4 +1,3 @@
-<!-- Reveal.configure({ autoSlide: 5000 }); -->
 
 # Welcome!
 
@@ -27,8 +26,8 @@ http://dctechslack.herokuapp.com/
 
 ----
 
-# View the slides
+# Other Notes
 
-* http://slides.cheffian.com:1948
-
-----
+* View the slides
+  * http://slides.cheffian.com:1948
+* Be sure to get your _Fluxx_ card

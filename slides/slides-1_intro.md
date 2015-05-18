@@ -1,100 +1,85 @@
-# Welcome!
-
-## IntroToDevops
-
-----
-
-# Wireless access:
-
-----
-
-
-# Slack room:
-
-- Please sign up for DCTech Slack at: <br>
-http://dctechslack.herokuapp.com/
-- And join the #devops room
-
-
-----
-
-# Your instructors are:
-
-- Peter Burkholder
-- Terry Cummiskey (T.A.)
-
-----
-
-
 
 # Agenda
 
 * Introductions
 * Why DevOps
 * Why Diversity
-* More Agenda
+* Goals for the Day
 
-Note: Introductions matter. Feel free to take some time on this -- because I'll better understand what you're bringing to the experience, and because communication and trust are core to DevOps practices - people matter!
+Note: Good morning. We'll get rolling here. Before we get into the meat of Devop tooling, let's set the stage with introductions, and a bit of background on why of DevOps, the why of building a more diverse cadre of devops practitioners
+
 
 ----
 
 
 # Introductions
 
-Note: Image from Pink Floyd
+- Break into teams. In each team:
+  - Name and one personal thing
+    - Pets? Siblings?
+  - Why are you here today?
+  - What does "DevOps" mean to you?
+  - What do you hope comes out of this?
+  - What scares you about this?
 
-- Name and residency
-- One personal thing - pets? siblings and their importance to you? favorite teacher or mentor and why?
-- Why are you here today
-- What does "DevOps" mean to you?
-- What's your experience with:
- - Coding?
- - Any of the tools or concepts here today
-- What do you hope comes out of this?
-- What scares you about this?
+Note: Introductions matter. Feel free to take some time on this -- because I'll better understand what you're bringing to the experience, and because communication and trust are core to DevOps practices - people matter! Image from Pink Floyd (if time). Pull 'Goal' cards to join Keepers into teams.
 
 
+----
+
+# Introductions
+
+## Reporting Back
+
+----
+
+# About your teams
+
+- Working as _Fluxx_ card pairs
+- Designate each of you as one of:
+  - 'alpha'
+  - 'bravo'
 
 ---
 
 # Why DevOps?
 
+----
 
-# Fun
+<!-- .slide: data-background="images/slide1_seismogram.jpg" -->
 
-Note: Image of Scotty/Spock
-Note: Traditional dev/ops wall, Devops brings devops practices to operations: TDD, code collaboration, and release practices
-Note: Empowers devs with authority to push to production, and the responsibility to handle to operational consequences
-Note: The entails communication and trust
+# <span style="color:red">My DevOps Story</span>
 
----
+Note: This is when I extemporize on a scientist, sysadmin, webops at DLESE, experience in the real world, then the DevOps movement.  And I'm like, "Oh, this is what we did before someone told us it was wrong!"
 
-# Valuable:
+----
 
-Note: Demonstrated return on investment
-Note: Hiring! Make money.
+<!-- .slide: data-background="images/slide1_devops.jpg" -->
 
----
+# The DevOps Movement
 
-# Fun:
+## <br>
+## <br>
 
-Note: all the latest toys
+Note: Traditional dev/ops wall, Devops brings devops practices to operations: TDD, code collaboration, and release practices. Empowers devs with authority to push to production, and the responsibility to handle to operational consequences.  The entails communication and trust.
 
----
+----
 
-# But that's not all!
+<!-- .slide: data-background="http://i.ytimg.com/vi/dVZ9bPRTiIA/maxresdefault.jpg" -->
 
-Note: i'll be returning to DevOps principles throughout the day....
+# Tools ≠ Culture
 
----
 
-# Why Diversity?
+----
+
+<!-- .slide: data-background="images/slide1_silicon_valley.jpg" -->
+
+# <span style="color:red">Why Diversity?</span>
+
+
 
 Note: It's no secret that the technology sector has a diversity problem
-
-Note: Image "Silicon Valley"
-
-Note: I could go into the personal reasons but I don't want to sound too self-congratulatory, so instead I'll talk about Chef and the economics of diversifying.
+ could go into the personal reasons but I don't want to sound too self-congratulatory, so instead I'll talk about Chef and the economics of diversifying.
 
 ---
 
@@ -104,11 +89,18 @@ Note: I could go into the personal reasons but I don't want to sound too self-co
 - Enough Github and Jenkins to collaborate
 - Enough AWS to operationalize our site
 
----
+----
 
-# Disclaimer
+<!-- .slide: data-background="images/slide1_coliseum.jpg" -->
 
-Image: Go Slow!
+# Notes on Pedagogy
 
-Note: We'll take enough time to achieve success before moving on
-Note: Labs! Questions! Ask for Help! Parking lot. Troubleshoot on the spot
+- You set the pace. We have no 'agenda'
+- We'll keep a 'parking lot' for some topics
+- Pairing:
+  - Driving
+  - Navigating
+
+----
+
+# Next: Lab 0
