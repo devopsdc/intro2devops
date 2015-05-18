@@ -100,7 +100,11 @@ Note: It's no secret that the technology sector has a diversity problem
 - Pairing:
   - Driving
   - Navigating
+- Tools: Slack (chat) and Slides (GitHub)
 
 ----
 
 # Next: Lab 0
+
+We'll do Lab 0 to make sure we have our setup working,
+then dive into Infrastructure Automation.

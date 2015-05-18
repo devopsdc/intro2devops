@@ -27,3 +27,9 @@ Requires adding a .gitconfig file and .git_templates/hooks/precommit to each use
 I can't imagine running a Chef workshop without having Chef to run the workshop.
 
 -->
+
+# Code collaboration
+
+![slide3_ireton](images/slide3_ireton.png)
+
+https://github.com/chef/chef-provisioning/pull/239

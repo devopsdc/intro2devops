@@ -1,3 +1,4 @@
+<!--
 
 Let's tell a story
 
@@ -58,3 +59,30 @@ IMAGE: Click Next
 and compare to automating around the idea of 'resources'
 
 ### NEXT - write up slide through Scene 3 of Franklin and Lab 3 of TSW.
+
+-->
+
+<!-- .slide: data-background="http://static.guim.co.uk/sys-images/Arts/Arts_/Pictures/2015/2/18/1424262922461/Exodus-II-Dubai-UAE-2010--001.jpg" -->
+
+## Infrastructure
+
+----
+
+## Ad-Hoc Infrastructure
+
+<!-- .slide:
+data-background="images/slides-infra-cabling-horror.jpg"
+-->
+
+----
+
+## Managed Infrastructure
+
+<!-- .slide:
+data-background="images/slides-infra-cabling.jpg"
+-->
+
+
+----
+
+# Next: Chef Test & Repair Resource Model
