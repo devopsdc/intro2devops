@@ -21,6 +21,7 @@ B. Write a small `chef-apply` recipe
 
 ### Don't forget the Up arrow
 ### When repeating commands
+### and [TAB] completion
 
 ---
 
