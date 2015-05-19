@@ -314,6 +314,18 @@ Resources follow a test and repair model:
 
 ----
 
+# Idempotence?
+
+<br>
+
+----
+
+# Idempotence?
+
+"EYE-them-potions"
+
+----
+
 # Next
 
 * [Lab 1: Resources](lab-1_resources.md)
