@@ -85,4 +85,6 @@ data-background="images/slides-infra-cabling.jpg"
 
 ----
 
-# Next: Chef Test & Repair Resource Model
+# Next:
+
+* [Chef Resource Model](slides-2.1_resources.md)
