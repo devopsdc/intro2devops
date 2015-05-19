@@ -29,5 +29,5 @@ http://dctechslack.herokuapp.com/
 # Other Notes
 
 * View the slides
-  * http://slides.cheffian.com:1948
+  * http://slides.devopsdc.com:1948
 * Be sure to get your _Fluxx_ card

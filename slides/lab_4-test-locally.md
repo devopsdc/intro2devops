@@ -9,7 +9,7 @@ Note. So you have this repo cloned onto your workstation, what does it do?
 Note. It's the repo that configures your workstation, your dev node, your ci node and all the other bits for running this workshop.  We'll use this cookbook to make www.devopsdc.com real.
 
 
-A. View http://dev.<fluxx>.cheffian.com, determine what to change<br>
+A. View http://dev.<fluxx>.devopsdc.com, determine what to change<br>
   - It should have content relevant to a Devops introduction.
 B. Confirm current test suite
 C. Update the tests, then code to pass the test
@@ -19,7 +19,7 @@ D. Commit and submit PR
 
 ### View from Chrome
 
-http://dev.<fluxx>.cheffian.com
+http://dev.<fluxx>.devopsdc.com
 ![lab4_dev_page_chrome](images/lab4_dev_page_chrome.png)
 
 ----
@@ -27,7 +27,7 @@ http://dev.<fluxx>.cheffian.com
 ### View from 'elinks'
 
 ```
-elinks http://dev.<fluxx>.cheffian.com
+elinks http://dev.<fluxx>.devopsdc.com
 ```
 ![lab4_dev_page_elinks](images/lab4_dev_page_elinks.png)
 

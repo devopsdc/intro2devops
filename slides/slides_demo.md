@@ -30,7 +30,7 @@ remote-sync plugin.
 Use the `Terminal` application to make an ssh connection your workstation:
 
 - Open the `Terminal` app from /Applications/Utilities
-- At the command prompt type: `ssh alpha@ws.<fluxx>.cheffian.com`
+- At the command prompt type: `ssh alpha@ws.<fluxx>.devopsdc.com`
   - At the prompt "Are you sure you want to continue connecting?" answer: "yes"
   - For the password, enter: password (it won't be displayed)
  - The login sequence should look like this:
@@ -155,7 +155,7 @@ Use `Putty` to make an ssh connection your workstation:
 
 - Double-click the `putty.exe` from the step above
 - In the connection dialog window, fill in:
-  - Host Name: `ws.<fluxx>.cheffian.com`
+  - Host Name: `ws.<fluxx>.devopsdc.com`
   - In the 'Saved Session' box, enter a name, `ws`
   - Then click `Save`
   - Then click `Open`
@@ -163,7 +163,7 @@ Use `Putty` to make an ssh connection your workstation:
   Select `Yes`
 - In the terminal window:
   - Login as: `alpha`
-  - Password for `alpha@ws.<fluxx>.cheffian.com` is `your password`
+  - Password for `alpha@ws.<fluxx>.devopsdc.com` is `your password`
 
 - You should get a prompt something like, `alpha@ip-10-230-43-114:~$ `
   - Type `whoami`

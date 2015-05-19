@@ -20,7 +20,7 @@ Unless you're familiar with `vim` or `emacs`, we'll use `nano`.
 ## Your domain and password
 
 - Where `<fluxx>` appears, use your Fluxx group name.
-  - For example: `ws.milk.cheffian.com` if 'milk' is your group
+  - For example: `ws.milk.devopsdc.com` if 'milk' is your group
 - Where (your password) appears, then supply the password
   - Your instructor should have provided this
 
@@ -36,7 +36,7 @@ Unless you're familiar with `vim` or `emacs`, we'll use `nano`.
 Use the `Terminal` application to make an ssh connection your workstation:
 
 - Open the `Terminal` app from /Applications/Utilities
-- At the command prompt type: `ssh alpha@ws.<fluxx>.cheffian.com`
+- At the command prompt type: `ssh alpha@ws.<fluxx>.devopsdc.com`
   - At the prompt "Are you sure you want to continue connecting?" answer: `yes`
   - For the password, enter: (your password) (it won't be displayed)
  - The login sequence should look like this:
@@ -86,7 +86,7 @@ Use `Putty` to make an ssh connection your workstation:
 
 - Double-click the `putty.exe` from the step above
 - In the connection dialog window, fill in:
-  - Host Name: `ws.<fluxx>.cheffian.com`
+  - Host Name: `ws.<fluxx>.devopsdc.com`
   - In the 'Saved Session' box, enter a name, `ws`
   - Then click `Save`
   - Then click `Open`
@@ -98,7 +98,7 @@ Use `Putty` to make an ssh connection your workstation:
   - Select `Yes`
 - In the terminal window
   - Login as: `alpha`
-  - Password for `alpha@ws.<fluxx>.cheffian.com` is (your password)
+  - Password for `alpha@ws.<fluxx>.devopsdc.com` is (your password)
 
 
 ----

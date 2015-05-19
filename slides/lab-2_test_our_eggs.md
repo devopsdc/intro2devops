@@ -10,7 +10,7 @@ B. Write a small `chef-apply` recipe
 ## Your domain and password
 
 - Where `<fluxx>` appears, use your Fluxx group name.
-  - For example: `ws.milk.cheffian.com` if 'milk' is your group
+  - For example: `ws.milk.devopsdc.com` if 'milk' is your group
 - Where (your password) appears, then supply the password
   - Your instructor should have provided this
 - Where `<user>` appears, use either `alpha` or `bravo` per your team role.
@@ -29,7 +29,7 @@ B. Write a small `chef-apply` recipe
 - First, use `ssh` or `putty` to connect as:
 
 ```bash
-<user>@ws.<fluxx>.cheffian.com
+<user>@ws.<fluxx>.devopsdc.com
 ```
 
 ----
