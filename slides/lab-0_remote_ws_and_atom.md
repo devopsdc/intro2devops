@@ -155,7 +155,7 @@ nano sample.rb
 
 ![nano_highlighting](images/nano_highlighting.png)
 
----
+----
 
 ### Ruby runs
 
@@ -163,3 +163,10 @@ nano sample.rb
 ruby sample.rb
 Hello World
 ```
+
+
+---
+
+# Next
+
+[Infra](slides-2-infra.md)

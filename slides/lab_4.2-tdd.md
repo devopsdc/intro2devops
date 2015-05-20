@@ -56,7 +56,7 @@ end
 
 ----
 
-### Write test of http://localhost:80
+### Optional: Write test of http://localhost:80
 
 Update `test/integration/core/serverspec/core_spec.rb`:
 
@@ -117,7 +117,7 @@ end
 
 ### Update the core `recipe` for `file`
 
-Update `recipe/core.rb` with
+Update `recipes/core.rb` with
 
 ```ruby
 file '/var/www/html/index.html' do
@@ -125,15 +125,44 @@ file '/var/www/html/index.html' do
   owner   "www-data"
 end
 ```
-
-
-
-
-```ruby
-describe file('/var/www/html/index.html') do
-  it { should contain('Welcome to DevOpsDC')}
-end
+Then:
 ```
+kitchen converge
+kitchen verify
+```
+
+----
+
+### We can fix this!
+
+1. Confirm our tests work as things stand now ✔︎
+1. Create a feature branch ✔︎
+1. Write a _failing_ test, then ✔︎
+  1. Write the correcting code ✔︎
+  1. Retest, if failure, try again, else ✔︎
+1. Commit and submit PR
+
+----
+
+### Commit and submit PR
+
+```
+git status
+git add recipes test
+git commit -m "Fixed homepage"
+git push origin fix_homepage
+```
+
+----
+
+### Submit Pull Request (PR)
+
+- Navigate to https://github.com/cheffian/(fluxx)
+- Submit PR (one of you)
+- Approve PR (the other)
+
+----
+
 
 
 

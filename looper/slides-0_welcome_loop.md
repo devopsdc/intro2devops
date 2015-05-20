@@ -7,6 +7,13 @@
 
 # Wireless access:
 
+- Network: Excella ATX
+- Password: 
+```
+the wifi is down
+```
+(note the spaces)
+
 ----
 
 
@@ -16,6 +23,7 @@
 http://dctechslack.herokuapp.com/
 - And join the #devops room
 
+OR: https://www.hipchat.com/gHENSoOxT
 
 ----
 

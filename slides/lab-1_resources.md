@@ -196,3 +196,9 @@ fortune | cowsay -f tux
 ```
 sl
 ```
+
+---
+
+# Next
+
+[GitHub](slides_3-github.md)

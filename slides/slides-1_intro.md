@@ -106,5 +106,5 @@ Note: It's no secret that the technology sector has a diversity problem
 
 # Next: Lab 0
 
-We'll do Lab 0 to make sure we have our setup working,
+We'll do [Lab 0](lab-0_remote_ws_and_atom.md) to make sure we have our setup working,
 then dive into Infrastructure Automation.

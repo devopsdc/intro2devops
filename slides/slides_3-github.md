@@ -33,3 +33,9 @@ I can't imagine running a Chef workshop without having Chef to run the workshop.
 ![slide3_ireton](images/slide3_ireton.png)
 
 https://github.com/chef/chef-provisioning/pull/239
+
+----
+
+# In Action
+
+[Lab 3: Github](lab-3_github_workflow.md)

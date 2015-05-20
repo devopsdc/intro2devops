@@ -72,8 +72,8 @@ cd <fluxx>
 git remote -v
 ```
 ```
-origin  https://github.com/cheffian/fluxx.git (fetch)
-origin  https://github.com/cheffian/fluxx.git (push)
+origin  https://github.com/cheffian/(fluxx).git (fetch)
+origin  https://github.com/cheffian/(fluxx).git (push)
 ```
 
 ----
@@ -81,6 +81,7 @@ origin  https://github.com/cheffian/fluxx.git (push)
 # Fini 3.A
 
 We've demonstrated:
+
 - Customizing the workstation Git configuration
 - Making a _clone_ of a GitHub repo on the workstation
 
@@ -210,7 +211,8 @@ Accomplished:
 
 ### Review, approve, and merge
 
-Partner B:
+User: Bravo
+
 - In your browser, go to
   - https://github.com/cheffian/<fluxx>/pull/1
 - Leave a comment, e.g.:
@@ -274,3 +276,10 @@ You'd be warned if deleting a branch with un-merged changes.
 ## Fini 3.D
 
 Discussion questions
+
+---
+
+# Next
+
+[Test Locally](lab_4-test-locally.md)
+
