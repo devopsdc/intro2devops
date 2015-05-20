@@ -1,5 +1,5 @@
-Yesterday I ran a [Diversifying Devops
-Workshop](http://www.eventbrite.com/e/diversifying-devops-workshop-registration-16625204434)
+Yesterday I ran a Diversifying Devops
+Workshop, http://www.eventbrite.com/e/diversifying-devops-workshop-registration-16625204434,
 in Arlington. The idea came from a discussion on the DevOpsDC Meetup planning
 team on how to make our Meetups less homogeneous, and we decided to invite
 people from underrepresented communities to get introduced to DevOps.
@@ -29,7 +29,7 @@ Having slides in Markdown and rendered with Reveal:
 - Slides are completely printable as regular html, e.g., https://github.com/devopsdc/intro2devops/blob/master/slides/lab-1_resources.md
 
 Adding some elements of delight:
-- I used [Fluxx cards](http://www.looneylabs.com/games/fluxx) to designate which subdomains each pair would work on. e.g.,
+- I used Fluxx cards to designate which subdomains each pair would work on. e.g.,
   - ws.peace.devopsdc.com
 - Installing `cowsay`, `fortune` and `sl` as Easter Egg packages instead of `vim` and `emacs`
 
@@ -68,6 +68,7 @@ Some acknowledgements
   I can rely on it for workshop setup.
 
 References:
-- [Workshop Cookbooks and Code](https://github.com/cheffian/fluxx)
-- [Workshop Slides and Labs](https://github.com/devopsdc/intro2devops)
-- [Markdown & Reveal](https://github.com/webpro/reveal-md)
+- Workshop Cookbooks and Code: https://github.com/cheffian/fluxx
+- Workshop Slides and Labs: https://github.com/devopsdc/intro2devops
+- Markdown & Reveal: https://github.com/webpro/reveal-md
+- Fluxx cards: http://www.looneylabs.com/games/fluxx
