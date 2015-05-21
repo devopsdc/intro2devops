@@ -6,6 +6,8 @@ A. Use an SSH client to securely connect to remote workstation<br>
 B. ~~~Use Atom and the `remote-sync` plugin to edit code on your local laptop~~~<br>
 C. Verify software on your remote workstation
 
+Note: So when we navigate to https://github.com/devopsdc/intro2devops/blob/master/slides/slides_demo.md we see a mild-mannered markdown lab walkthru
+
 ----
 
 ### Context
@@ -16,10 +18,15 @@ student laptops. However, the remote Linux workstations may not have editors
 that are comfortable for you to use, so we'll use Atom, a free editor, with a
 remote-sync plugin.
 
+Note: But when we supercharge our system with https://github.com/webpro/reveal-md we reveal a powerful hidden identity.
+
 ----
 
 <!-- .slide: data-background="#000000" -->
+
 ## A: Remote connection
+
+Note: `reveal-md slides_demo.md` and/or in the looper dir: `reveal-md`
 
 ----
 
@@ -37,24 +44,54 @@ Use the `Terminal` application to make an ssh connection your workstation:
 
 ----
 
-<!-- .slide: data-background="http://static.guim.co.uk/sys-images/Arts/Arts_/Pictures/2015/2/18/1424262922461/Exodus-II-Dubai-UAE-2010--001.jpg" -->
 
-## Infrastructure
-
-----
-
-<!-- .slide: data-background-size="800px" data-background="https://www.lucidchart.com/publicSegments/view/5553ff12-7048-4c73-af8d-6dc40a00c0d0/image.png" -->
-
-# Hello
-
-
-----
-
-# An image:
+Areas of user input shown in red:
 
 ![Alt text](images/putty.png)
 
 ----
+
+- You should get a prompt something like, `alpha@ip-10-230-43-114:~$ `
+ - Type `whoami`
+ - If the result is `alpha`, continue to Section B
+
+```bash
+alpha@ip-10-230-43-114:~$ whoami
+alpha
+```
+
+----
+
+
+<!-- .slide: data-background="http://static.guim.co.uk/sys-images/Arts/Arts_/Pictures/2015/2/18/1424262922461/Exodus-II-Dubai-UAE-2010--001.jpg" -->
+
+## Infrastructure
+
+
+----
+
+
+# Some other things
+
+* v2 of the aws-sdk no longer requires `nokogiri`
+  * https://github.com/aws/aws-sdk-ruby/pull/745
+* so Route53 doesn't either --
+* Run chef-client
+
+----
+
+# Also:
+
+- PRs to real repos:
+  - https://github.com/cheffian/sun/pulls?q=is%3Apr+is%3Aclosed
+  - https://github.com/cheffian?tab=repositories
+- Easter eggs --
+```
+sl
+```
+
+---
+
 
 # A table
 
