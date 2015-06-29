@@ -10,6 +10,19 @@ Note: So when we navigate to https://github.com/devopsdc/intro2devops/blob/maste
 
 ----
 
+<!-- .slide: data-background="#000000" style="background: rgba(0,129,195,.9); color: white"-->
+
+### Testing with style
+
+We're using a remote workstation with all packages and connectitivy
+preconfigured. This eliminates a lot of installation and troubleshooting on
+student laptops. However, the remote Linux workstations may not have editors
+that are comfortable for you to use, so we'll use Atom, a free editor, with a
+remote-sync plugin 
+
+
+----
+
 ### Context
 
 We're using a remote workstation with all packages and connectitivy
@@ -22,7 +35,7 @@ Note: But when we supercharge our system with https://github.com/webpro/reveal-m
 
 ----
 
-<!-- .slide: data-background="#000000" -->
+<!-- .slide: data-background="#000000" style="background: rgba(0,129,195,.9); color: white"-->
 
 ## A: Remote connection
 
